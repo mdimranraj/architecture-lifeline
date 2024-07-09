@@ -1,0 +1,81 @@
+.mainContainer{
+    min-height: 90vh;
+    position: static;
+}
+.backgroundSection img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100svh;
+    z-index: -10;
+}
+.firstSection{
+    height: 100svh;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.firstSection h3{
+    color:aliceblue;
+    font-size: 2rem;
+    
+}
+.firstSection h5{
+    color:#EDF2F5;
+    font-size: 3rem;
+}
+.secondSection{
+    background-color: #EDF2F5;
+    /* background-color: #E7E7E7; */
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    background-image: url(../../public/images/building1.png) !important;
+    background-position: bottom;
+    background-size: cover;
+
+}
+.blurContainer{
+    background: rgb(237,242,245);
+    background: linear-gradient(53deg, rgba(237,242,245,0) 0%, rgba(237,242,245,0.6559873949579832) 9%, rgba(237,242,245,0.7904411764705882) 33%, rgba(237,242,245,1) 65%);
+    padding: 20px;
+}
+.aboutVideoFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.aboutImg video{
+    width: 500px;
+    height: auto;
+    border-radius: 16px;
+    flex: 1;
+}
+.about{
+    width: 60%;
+}
+.blurContainer h3{
+    margin : 20px 0;
+    text-align: center;
+}
+.content{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.content ul{
+    margin: 1rem 0;
+}
+.thirdSection{
+    height: 100vh;
+    background-color: #DDE6ED;
+    width: 100%;
+    z-index: 10;
+}

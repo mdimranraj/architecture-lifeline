@@ -1,0 +1,44 @@
+.navbar{
+    background-color: transparent !important;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    /* background-color: #63767B !important; */
+    
+}
+.navbar ul{
+    gap: 20px;
+    
+}
+.navbar a{
+    color:white !important;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.navbarNav{
+    justify-content: flex-end !important;
+}
+.logo{
+    width: 50px;
+}
+.dropdown{
+    position: relative;
+}
+.dropdownMenu{
+    width: 300%;
+    overflow: hidden;
+    background-color: #AEC1C7;
+   
+}
+.dropdownMenu a{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1rem !important;
+}
+.dropdownMenu a:hover{
+    color: black !important;
+}

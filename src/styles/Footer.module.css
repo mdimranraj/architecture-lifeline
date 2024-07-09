@@ -1,0 +1,30 @@
+.mainContainer{
+    width: 100%;
+    background-color: #63767B;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    color: aliceblue;
+    font-size: 1rem;
+}
+.leftSide{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.logo{
+    width: 100px;
+}
+.rightSide{
+    color: aliceblue;
+    font-size: 1rem;
+}
