@@ -10,7 +10,7 @@ const TeamCard = ()=>{
     }
     return(
         <div className={styles.mainContainer}>
-            <div className={styles.img}><img src="./images/ceo.jpg" alt="ceo" /></div>
+            <div className={styles.img}><img src="./images/ceo.png" alt="ceo" /></div>
             <div className={`${styles.details} ${isExpanded ? styles.expanded : ''}`}>
                 <div className={styles.name}>Arch. Nikhil Kumar</div>
                 <div className={styles.designation}>Founder & CEO</div>
