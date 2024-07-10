@@ -13,23 +13,26 @@ const Navbar = ()=>{
                     <li className="nav-item">
                     <a className="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
-                    <li className="nav-item dropdown">
-                        <div>
-                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Service
-                            </a>
-                            <ul className={styles.dropdownMenu + " dropdown-menu"}>
-                                <li><a className="dropdown-item" href="#">Architectural & Specialised Projects</a></li>
-                                <li><a className="dropdown-item" href="#">Landscaping</a></li>
-                                <li><a className="dropdown-item" href="#">Interior designing</a></li>
-                                <li><a className="dropdown-item" href="#">Industrial buildings</a></li>
-                                <li><a className="dropdown-item" href="#">Township planning</a></li>
-                                <li><a className="dropdown-item" href="#">Restoration & Conservation</a></li>
-                                <li><a className="dropdown-item" href="#">Traffic improvement planning</a></li>
-                                <li><a className="dropdown-item" href="#">Project management consultancy</a></li>
-                            </ul>
-                        </div>
+                    <li className="nav-item">
+                        <a className="nav-link" href="/services">Services</a>
                     </li>
+                    {/* <li className="nav-item dropdown">
+                            <div>
+                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Service
+                                </a>
+                                <ul className={styles.dropdownMenu + " dropdown-menu"}>
+                                    <li><a className="dropdown-item" href="#">Architectural & Specialised Projects</a></li>
+                                    <li><a className="dropdown-item" href="#">Landscaping</a></li>
+                                    <li><a className="dropdown-item" href="#">Interior designing</a></li>
+                                    <li><a className="dropdown-item" href="#">Industrial buildings</a></li>
+                                    <li><a className="dropdown-item" href="#">Township planning</a></li>
+                                    <li><a className="dropdown-item" href="#">Restoration & Conservation</a></li>
+                                    <li><a className="dropdown-item" href="#">Traffic improvement planning</a></li>
+                                    <li><a className="dropdown-item" href="#">Project management consultancy</a></li>
+                                </ul>
+                            </div>
+                        </li> */}
                     <li className="nav-item">
                     <a className="nav-link" href="/team">Team</a>
                     </li>

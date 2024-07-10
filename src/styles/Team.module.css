@@ -1,13 +1,15 @@
 .mainContainer{
     min-height: 90vh;
     position: static;
-}
+    background-color: #D0DCE0;
 
-.backgroundSection img{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100svh;
-    z-index: -10;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.mainContainer h1{
+    margin: 20px;
+    font-size: 2rem;
 }
