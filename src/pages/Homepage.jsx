@@ -1,3 +1,4 @@
+import Testimonial from "../components/Testimonial";
 import styles from "../styles/Homepage.module.css";
 const Homepage = ()=>{
     return(
@@ -40,6 +41,12 @@ const Homepage = ()=>{
                 <div className={styles.thirdSection}>
                     <div className={styles.blurContainer}>
                         <h3>What do our Customers say ?</h3>
+                        <div className={styles.review}>We value every feedback. Afterall your satisfaction is our priority. </div>
+                        <div className={styles.testimonialContainer}>
+                            <Testimonial/>
+                            <Testimonial />
+                            <Testimonial />
+                        </div>
                     </div>          
                 </div>
         </div>

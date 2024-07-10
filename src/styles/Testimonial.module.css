@@ -1,0 +1,39 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    min-height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    flex: 1;
+
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #D0DCE0;
+}
+
+.quoteCircle{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #78AE9C;
+    border-radius: 50%;
+    text-align: center;
+}
+.quoteIcon{
+    color: white;
+    font-size: 1.5rem;
+}
+.quoteTextContainer{
+    line-height: 1.6;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.author{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: Ubuntu, sans-serif;
+}

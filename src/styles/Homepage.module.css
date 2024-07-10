@@ -82,8 +82,28 @@
 
     min-height: 90vh;
     background-color: #73888D;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
 }
 .blurContainer h3{
-    margin : 20px 0;
+    margin : 20px 0 0;
     text-align: center;
+    color: #D0DCE0;
+}
+.review{
+    margin-bottom: 30px;
+    color: #D0DCE0;
+    font-size: 1.1rem;
+}
+.testimonialContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
