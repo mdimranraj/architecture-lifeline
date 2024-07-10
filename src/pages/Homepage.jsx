@@ -14,9 +14,7 @@ const Homepage = ()=>{
                 <div className={styles.secondSection}>
                     <h3>What do we do ?</h3>
                     <div className={styles.aboutVideoFlex}>
-                        <div className={styles.aboutImg}>
-                            <video src="./images/video.mp4" autoPlay loop muted></video>
-                        </div>
+                        
                         <div className={styles.about}>
                             
                             <div className={styles.content}>
@@ -35,6 +33,10 @@ const Homepage = ()=>{
                             <br /><br />
                             Let us create your dream space. From modern hospitals and cozy bungalows to residential complexes and other diverse buildings.
                             </div>
+
+                        </div>
+                        <div className={styles.aboutImg}>
+                            <video src="./images/video.mp4" autoPlay loop muted></video>
                         </div>
                     </div>       
                 </div>

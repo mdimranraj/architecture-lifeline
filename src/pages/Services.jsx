@@ -1,8 +1,10 @@
 
+import styles from "../styles/Services.module.css"
 const Services = ()=>{
     return(
-        <div>
-            <h1>Services</h1>
+        <div className={styles.mainContainer}>
+            <h3>Services</h3>
+            <div ></div>
         </div>
     )
 }

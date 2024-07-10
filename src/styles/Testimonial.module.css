@@ -31,9 +31,16 @@
     line-height: 1.6;
     font-size: 1.1rem;
     text-align: center;
+
+    font-weight: 100;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
 }
 .author{
     font-size: 1.2rem;
     font-weight: 400;
-    font-family: Ubuntu, sans-serif;
+    font-family: "Karla", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.2;
 }
