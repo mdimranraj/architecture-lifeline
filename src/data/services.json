@@ -5,7 +5,11 @@
         "description": "Transform your outdoor spaces into breathtaking retreats with our expert landscaping services. We blend nature's beauty with artistic design, creating lush, sustainable landscapes that enhance the aesthetic and value of your property.",
         "iconImg":"./images/landscaping.png",
         "exampleImg":[
-        
+            "./images/landscaping/landscaping1.png",
+            "./images/landscaping/landscaping2.png",
+            "./images/landscaping/landscaping3.png",
+            "./images/landscaping/landscaping4.png",
+            "./images/landscaping/landscaping5.png"
         ]
     },
     {
@@ -14,7 +18,16 @@
         "description": "Elevate your living and working environments with our bespoke interior design services. We craft stunning, functional interiors that reflect your unique style and needs, ensuring every space exudes elegance and comfort.",
         "iconImg":"./images/interior-designing.png",
         "exampleImg":[
-        
+            "./images/interior/interior1.png",
+            "./images/interior/interior2.png",
+            "./images/interior/interior3.png",
+            "./images/interior/interior4.png",
+            "./images/interior/interior5.png",
+            "./images/interior/interior6.png",
+            "./images/interior/interior7.png",
+            "./images/interior/interior8.png",
+            "./images/interior/interior9.png"
+            
         ]
     },
     {
@@ -23,7 +36,13 @@
         "description": "Optimize your industrial spaces with our cutting-edge architectural solutions. We design efficient, durable, and scalable industrial buildings that support your operational needs and drive business success.",
         "iconImg":"./images/industrial-building.png",
         "exampleImg":[
-        
+            "./images/industrial/industrial1.png",
+            "./images/industrial/industrial2.png",
+            "./images/industrial/industrial3.png",
+            "./images/industrial/industrial4.png",
+            "./images/industrial/industrial5.png",
+            "./images/industrial/industrial6.png"
+
         ]
     },
     {

@@ -52,3 +52,42 @@
 .btn:hover{
     background-color: #354444;
 }
+
+/* modal  */
+.modal{
+    background-color: #D0DCE0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.modalBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.modalHeader, .modalFooter{
+    background-color: #486666;
+}
+.modalHeader h1{
+    color: #D0DCE0;
+}
+.modalHeader button, .modalFooter button{
+    background-color: #D0DCE0;
+    color: #354444;
+    font-weight: 600;
+
+}
+.exampleImg{
+    width: 40%;
+    height: 250px;
+}
+.sorryImg{
+    width: 100%;
+}
+.sorryText{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
