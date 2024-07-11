@@ -47,6 +47,7 @@
 }
 .btn{
     background-color: #486666;
+    border: none;
 }
 .btn:hover{
     background-color: #354444;

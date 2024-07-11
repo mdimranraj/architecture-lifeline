@@ -25,8 +25,3 @@
     gap: 20px;
     flex-wrap: wrap;
 }
-.secondSection{
-    min-height: 80vh;
-    background-color: #D0DCE0;
-    padding: 20px;
-}
