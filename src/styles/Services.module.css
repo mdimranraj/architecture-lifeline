@@ -1,0 +1,32 @@
+
+.firstSection{
+    background-color: #73888D;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.firstSection h3{
+    font-size: 3rem;
+
+}
+.description{
+    width: 50%;
+    text-align: center;
+    color: #D0DCE0;
+}
+.servicesFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.secondSection{
+    min-height: 80vh;
+    background-color: #D0DCE0;
+    padding: 20px;
+}
