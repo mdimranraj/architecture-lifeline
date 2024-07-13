@@ -64,15 +64,6 @@
         ]
     },
     {
-        "id": 6,
-        "title":"Traffic Improvement Planning",
-        "description": "Enhance urban mobility and safety with our innovative traffic improvement planning services. We design efficient traffic solutions that reduce congestion, improve flow, and create safer, more accessible streets for everyone.",
-        "iconImg":"./images/traffic.png",
-        "exampleImg":[
-        
-        ]
-    },
-    {
         "id": 7,
         "title":"Project Management Consultancy",
         "description": "Achieve seamless project execution with our expert project management consultancy services. We ensure your architectural projects are delivered on time, within budget, and to the highest quality standards, guiding you from concept to completion with precision and expertise.",
@@ -80,6 +71,16 @@
         "exampleImg":[
         
         ]
+    },
+    {
+        "id": 6,
+        "title":"Traffic Improvement Planning",
+        "description": "Enhance urban mobility and safety with our innovative traffic improvement planning services. We design efficient traffic solutions that reduce congestion, improve flow, and create safer, more accessible streets for everyone.",
+        "iconImg":"./images/traffic.png",
+        "exampleImg":[
+        
+        ]
     }
+
 
 ]
