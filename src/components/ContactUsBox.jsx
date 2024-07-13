@@ -39,7 +39,9 @@ const ContactUs = ()=>{
                     <div>
                         Write to us. Give suggetions. Our team will contact you.
                     </div>
+                    
                 </div>
+                <img className={styles.talk} src="./images/talk.gif" alt="contact" />
             </div>
             <div className={styles.rightPart}>
                 <div>
@@ -48,22 +50,22 @@ const ContactUs = ()=>{
                         <div className={styles.nameEmail}>
                             <div className={styles.nameDiv}>
                                 <label htmlFor="name">Name</label>
-                                <input type="text" placeholder='Name' name='name' value={name} onChange={event => {setName(event.target.value);}} required/>
+                                <input type="text"  name='name' value={name} onChange={event => {setName(event.target.value);}} required/>
                             </div>
                             <div className={styles.emailDiv}>
                                 <label htmlFor="email">Email</label>
-                                <input type="email" name='email' placeholder='Email' value={email} onChange={event => {setEmail(event.target.value);}}/>
+                                <input type="email" name='email'  value={email} onChange={event => {setEmail(event.target.value);}}/>
                             </div>
                         </div>
                         <div className={styles.phoneDiv}>
                             <label htmlFor="phone">Phone</label>
-                            <input type="text" placeholder='Phone' name='phone' value={phone} onChange={event => {setPhone(event.target.value);}} maxLength={10} minLength={10} required/>
+                            <input type="text"  name='phone' value={phone} onChange={event => {setPhone(event.target.value);}} maxLength={10} minLength={10} required/>
                         </div>
                         <div className={styles.messageDiv}>
                             <label htmlFor="message">Message</label>
-                            <textarea name="message" id="" cols="30" rows="4" placeholder='Message' value={message} onChange={event => {setMessage(event.target.value);}}></textarea>
+                            <textarea name="message" id="" cols="30" rows="4"  value={message} onChange={event => {setMessage(event.target.value);}}></textarea>
                         </div>
-                       <button type="submit" className="btn btn-success">Send Message</button>
+                       <button type="submit" className={styles.send + " btn btn-success"}>Send Message</button>
                     </form>
                 </div>
             </div>

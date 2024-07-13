@@ -1,7 +1,16 @@
 .mainContainer{
-    min-height: 90vh;
-    background-color: ;
+    /* background-color: #73888D; */
+    background-image: url("../../public/images/building1.png");
+    background-position: center;
+    background-size: cover;
+
+}
+.blurContainer{
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 90vh;
+    width: 100%;
+    background: rgb(115,136,141);
+background: linear-gradient(57deg, rgba(115,136,141,0.29744397759103647) 0%, rgba(115,136,141,1) 100%);
 }

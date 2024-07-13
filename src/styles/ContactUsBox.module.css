@@ -7,7 +7,8 @@
     width: fit-content;
     margin: 50px auto;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    background-color: #5CCE93;
+    /* background-color: #5CCE93; */
+    background-color: #D0DCE0;
 }
 
 .formDiv{
@@ -23,9 +24,16 @@
     padding: 20px;
 }
 .leftPart{
-    background-color: #5CCE93;
+    background-color: transparent;
     color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
+}
+.talk{
+    width: 80%;
 }
 .rightPart{
     background-color: white;
@@ -50,4 +58,7 @@
 .mainContainer label{
     font-size: 0.8rem;
     font-weight: bold;
+}
+.send{
+    background-color: #36C2CE;
 }

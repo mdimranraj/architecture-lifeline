@@ -4,7 +4,10 @@ import styles from '../styles/ContactUs.module.css'
 const ContactUs = ()=>{
     return(
         <div className={styles.mainContainer}>
-            <ContactUsBox />
+            <div className={styles.blurContainer}>
+                <ContactUsBox />
+            </div>
+            
         </div>
     )
 }
