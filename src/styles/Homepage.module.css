@@ -2,6 +2,12 @@
     min-height: 90vh;
     position: static;
 }
+.floatingBtn{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 20;
+}
 .backgroundSection img{
     position: fixed;
     top: 0;
@@ -39,7 +45,7 @@
     background: rgb(208,220,224);
     background: linear-gradient(0deg, rgba(208,220,224,1) 16%, rgba(242,246,246,1) 52%, rgba(208,220,224,1) 87%);
     box-sizing: border-box;
-    padding: 20px;
+    padding: 30px 20px 40px;
 }
 .secondSection h3{
     margin : 20px 0;
@@ -84,11 +90,51 @@
     font-weight: 600;
     line-height: 2.5;
 }
+.content li{
+    list-style: none;
+}
+.content li::before{
+    content: '✓ ';
+}
+.collabSection{
+    /* background-color: #bdeaf6; */
+    background: rgb(89,115,122);
+    /* background: -moz-linear-gradient(0deg, rgba(89,115,122,1) 0%, rgba(78,186,212,1) 14%, rgba(55,121,136,1) 83%, rgba(208,220,224,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(89,115,122,1) 0%, rgba(78,186,212,1) 14%, rgba(55,121,136,1) 83%, rgba(208,220,224,1) 100%);
+    background: linear-gradient(0deg, rgba(89,115,122,1) 0%, rgba(78,186,212,1) 14%, rgba(55,121,136,1) 83%, rgba(208,220,224,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#59737a",endColorstr="#d0dce0",GradientType=1); */
+
+    background: rgb(115,136,141);
+    background: -moz-linear-gradient(0deg, rgba(115,136,141,1) 0%, rgba(208,220,224,1) 0%, rgba(53,68,68,1) 100%, rgba(208,220,224,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(115,136,141,1) 0%, rgba(208,220,224,1) 0%, rgba(53,68,68,1) 100%, rgba(208,220,224,1) 100%);
+    background: linear-gradient(0deg, rgba(115,136,141,1) 0%, rgba(208,220,224,1) 0%, rgba(53,68,68,1) 100%, rgba(208,220,224,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#73888d",endColorstr="#d0dce0",GradientType=1);
+    padding: 30px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+}
+.collabSection h3{
+    margin : 20px 0 0;
+    text-align: center;
+    color: #D0DCE0;
+
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+}
 .thirdSection{
     width: 100%;
     z-index: 10;
-    padding: 20px 20px 40px;
-    background-color: #73888D;
+    padding: 30px 20px 40px;
+    background-color:  #59737A;
 
     display: flex;
     flex-direction: column;
@@ -137,7 +183,7 @@
     .firstSection h5 {
         font-size: 3rem;
     }
-    .secondSection h3, .thirdSection h3 {
+    .secondSection h3, .thirdSection h3, .collabSection h3 {
         font-size: 2rem;
     }
 
@@ -152,7 +198,7 @@
     .firstSection h5{
         font-size: 1.5rem;
     }
-    .secondSection h3, .thirdSection h3 {
+    .secondSection h3, .thirdSection h3, .collabSection h3 {
         font-size: 1.5rem;
     }
     .content {

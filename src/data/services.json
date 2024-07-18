@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title":"Landscaping",
-        "description": "Transform your outdoor spaces into breathtaking retreats with our expert landscaping services. We blend nature's beauty with artistic design, creating lush, sustainable landscapes that enhance the aesthetic and value of your property.",
+        "description": "Transform your outdoor spaces into breathtaking retreats with our expert landscaping services. Blend nature's beauty with artistic design, creating lush, sustainable landscapes.",
         "iconImg":"./images/landscaping.png",
         "exampleImg":[
             "./images/landscaping/landscaping1.png",
@@ -15,7 +15,7 @@
     {
         "id": 2,
         "title":"Interior Designing",
-        "description": "Elevate your living and working environments with our bespoke interior design services. We craft stunning, functional interiors that reflect your unique style and needs, ensuring every space exudes elegance and comfort.",
+        "description": "Elevate your living and working environments with our bespoke interior design services. We craft interiors that reflect your unique style.",
         "iconImg":"./images/interior-designing.png",
         "exampleImg":[
             "./images/interior/interior1.png",
@@ -33,7 +33,7 @@
     {
         "id": 3,
         "title":"Industrial Building",
-        "description": "Optimize your industrial spaces with our cutting-edge architectural solutions. We design efficient, durable, and scalable industrial buildings that support your operational needs and drive business success.",
+        "description": "We design efficient, durable, and scalable industrial buildings that support your operational needs and drive business success.",
         "iconImg":"./images/industrial-building.png",
         "exampleImg":[
             "./images/industrial/industrial1.png",
@@ -48,7 +48,7 @@
     {
         "id": 4,
         "title":"Township Planning",
-        "description": "Create vibrant, sustainable communities with our expert township planning services. We design cohesive, livable townships that seamlessly integrate residential, commercial, and recreational spaces, fostering a sense of community and enhancing quality of life.",
+        "description": "Create vibrant, sustainable communities with our expert township planning services. We design cohesive, livable townships that seamlessly integrate residential, commercial, and recreational spaces.",
         "iconImg":"./images/township-planning.png",
         "exampleImg":[
         
@@ -57,7 +57,7 @@
     {
         "id": 5,
         "title":"Restoration & Conservation",
-        "description": "Preserve the charm and integrity of historic structures with our specialized restoration and conservation services. We bring new life to heritage buildings, meticulously restoring their original beauty while ensuring they meet modern standards of safety and functionality.",
+        "description": "We bring new life to heritage buildings, meticulously restoring their original beauty while ensuring they meet modern standards of safety and functionality.",
         "iconImg":"./images/restoration.png",
         "exampleImg":[
         
@@ -66,7 +66,7 @@
     {
         "id": 7,
         "title":"Project Management Consultancy",
-        "description": "Achieve seamless project execution with our expert project management consultancy services. We ensure your architectural projects are delivered on time, within budget, and to the highest quality standards, guiding you from concept to completion with precision and expertise.",
+        "description": "We ensure your architectural projects are delivered on time, within budget, and to the highest quality standards, guiding you from concept to completion with precision and expertise.",
         "iconImg":"./images/project-management.png",
         "exampleImg":[
         
@@ -75,7 +75,7 @@
     {
         "id": 6,
         "title":"Traffic Improvement Planning",
-        "description": "Enhance urban mobility and safety with our innovative traffic improvement planning services. We design efficient traffic solutions that reduce congestion, improve flow, and create safer, more accessible streets for everyone.",
+        "description": "Efficient traffic solutions that reduce congestion, improve flow, and create safer, more accessible streets for everyone.",
         "iconImg":"./images/traffic.png",
         "exampleImg":[
         

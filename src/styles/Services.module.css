@@ -6,12 +6,13 @@
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
-    padding: 20px;
+    padding: 20px 20px 40px;
 }
 .firstSection h3{
     font-size: 3rem;
 }
 .description{
+    margin: 40px 0 ;
     width: 80%;
     text-align: center;
     color: #D0DCE0;

@@ -5,10 +5,23 @@ import Homepage from './pages/Homepage';
 import Services from './pages/Services';
 import Team from './pages/Team';
 import ContactUs from './pages/ContactUs';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
     <div className="App">
+      <ToastContainer 
+      position="top-center"
+      autoClose={5000}
+      hideProgressBar={false}
+      newestOnTop
+      closeOnClick
+      rtl={false}
+      pauseOnFocusLoss
+      draggable={false}
+      pauseOnHover
+      theme="light"
+      />
       <Routes>
         <Route path="/" element={<Layout page={<Homepage />} />} />
         <Route path="/services" element={<Layout page={<Services />} />} />

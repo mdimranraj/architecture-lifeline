@@ -6,10 +6,11 @@ const Services = ()=>{
     return(
         <div className={styles.mainContainer}>
             <div className={styles.firstSection}>
-                <h3>Our Services</h3>
                 <div className={styles.description}>
-                    Our dedicated team blends creativity with technical excellence to deliver bespoke designs tailored to your needs. 
-                    From concept to completion, we ensure every detail is meticulously crafted, bringing your dream spaces to life with unmatched quality and precision.
+                    <q>
+                        To give real service, you must add something which
+                        cannot be bought or measured with money.
+                    </q>
                 </div>
                 <div className={styles.servicesFlex}>
                     {

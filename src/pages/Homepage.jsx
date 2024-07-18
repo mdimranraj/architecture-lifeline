@@ -1,10 +1,16 @@
+import FloatingButtons from "../components/FloatingButtons";
+import LogoCarousel from "../components/LogoCarousel";
 import Testimonial from "../components/Testimonial";
 import styles from "../styles/Homepage.module.css";
+import collabData from "../data/collaborators.json";
 const Homepage = ()=>{
     return(
         <>
             <div className={styles.backgroundSection}>
                 <img src="/images/gray-block-structure.jpg" alt="Background-Image"/>
+            </div>
+            <div className={styles.floatingBtn}>
+                <FloatingButtons/>
             </div>
             <div className={styles.mainContainer}>
                 <div className={styles.firstSection}>
@@ -20,6 +26,7 @@ const Homepage = ()=>{
                             <div className={styles.content}>
                             At Architecture Lifeline, we specialise in designing and constructing a wide array of architectural projects, including :
                             <ul>
+                                <li>Architectural and Specialised Projects</li>
                                 <li>Landscaping</li>
                                 <li>Interior designing</li>
                                 <li>Industrial buildings</li>
@@ -40,14 +47,15 @@ const Homepage = ()=>{
                         </div>
                     </div>       
                 </div>
+                <div className={styles.collabSection}>
+                    <h3>Our Collaborators</h3>
+                    <LogoCarousel collabData={collabData}/>
+                </div>
                 <div className={styles.thirdSection}>
                         <h3>What do our Customers say ?</h3>
                         <div className={styles.review}>We value every feedback. Afterall your satisfaction is our priority. </div>
                         <div className={styles.testimonialContainer}>
                             <Testimonial/>
-                            <Testimonial />
-                            <Testimonial />
-                            <Testimonial />
                             <Testimonial />
                             <Testimonial />
                         </div>         

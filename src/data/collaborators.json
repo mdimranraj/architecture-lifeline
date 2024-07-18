@@ -1,0 +1,103 @@
+[
+    {
+        "id":1,
+        "name": "Tata",
+        "logo": "./images/logos/tata.png"
+    },
+    {
+        "id":2,
+        "name": "SAIL",
+        "logo": "./images/logos/sail.png"
+    },
+    {
+        "id":3,
+        "name": "Vizag",
+        "logo": "./images/logos/vizag.png"
+    },
+    {
+        "id":4,
+        "name": "Lafarge",
+        "logo": "./images/logos/lafarge.png"
+    },
+    {
+        "id":5,
+        "name": "Kajaria",
+        "logo": "./images/logos/kajaria.png"
+    },
+    {
+        "id":6,
+        "name": "Somany",
+        "logo": "./images/logos/somany.png"
+    },
+    {
+        "id":7,
+        "name": "Prestige",
+        "logo": "./images/logos/prestige.png"
+    },
+    {
+        "id":8,
+        "name": "Hindware",
+        "logo": "./images/logos/hindware.png"
+    },
+    {
+        "id":9,
+        "name": "Jaguar",
+        "logo": "./images/logos/jaguar.png"
+    },
+    {
+        "id":10,
+        "name": "Cera",
+        "logo": "./images/logos/cera.png"
+    },
+    {
+        "id":11,
+        "name": "Greenlam",
+        "logo": "./images/logos/greenlam.png"
+    },
+    {
+        "id":12,
+        "name": "Godrej",
+        "logo": "./images/logos/godrej.png"
+    },
+    {
+        "id":13,
+        "name": "Sintex",
+        "logo": "./images/logos/sintex.png"
+    },
+    {
+        "id":14,
+        "name": "Anchor",
+        "logo": "./images/logos/anchor.png"
+    },
+    {
+        "id":15,
+        "name": "Havells",
+        "logo": "./images/logos/havells.png"
+    },
+    {
+        "id":16,
+        "name": "Goldmedal",
+        "logo": "./images/logos/goldmedal.png"
+    },
+    {
+        "id":17,
+        "name": "L&T",
+        "logo": "./images/logos/landt.png"
+    },
+    {
+        "id":18,
+        "name": "Kolors",
+        "logo": "./images/logos/kolors.png"
+    },
+    {
+        "id":19,
+        "name": "Dr. Fixit",
+        "logo": "./images/logos/drfixit.png"
+    },
+    {
+        "id":20,
+        "name": "Acc",
+        "logo": "./images/logos/acc.png"
+    }
+
+]

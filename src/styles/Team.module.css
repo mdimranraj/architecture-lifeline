@@ -9,18 +9,16 @@
     align-items: center;
     gap: 20px;
 
-    padding: 20px;
+    padding: 40px 20px;
 }
 
-.heading{
-    font-size: 3rem;
-    text-align: center;
-}
 .description{
     width: 60%;
     text-align: center;
     color: #D0DCE0;
     font-size: 1.2rem;
     font-weight: 600;
+    margin: 20px 0 40px;
 
 }
+

@@ -1,0 +1,111 @@
+.navigation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuToggle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 70px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+.menuToggle:hover{
+    background-color: #E6EEEF;
+}
+
+.menuToggle::before {
+    content: '+';
+    position: absolute;
+    font-size: 2.8em;
+    font-weight: 550;
+    color: #087fe0;
+    transition: 1.2s;
+}
+
+.menuToggle.active::before {
+    transform: rotate(225deg);
+}
+
+.menu {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 70px;
+    z-index: -1;
+    transition: transform 0.5s, width 0.5s, height 0.5s;
+    transition-delay: 1s, 0.5s, 0.5s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.menuToggle.active .menu {
+    width: 50px;
+    height: 120px;
+    padding: 10px;
+    box-sizing: content-box;
+    z-index: 1;
+    transform: translateY(-100px);
+    transition-delay: 0s, 0.5s, 0.5s;
+}
+
+.menu ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.menu ul li {
+    list-style: none;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(30px);
+    transition: 0.25s;
+}
+
+.menu ul li.delay-0 {
+    --i: 0s;
+}
+
+.menu ul li.delay-1 {
+    --i: 0.1s;
+}
+
+.menuToggle.active .menu ul li {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+    transition-delay: calc(0.75s + var(--i));
+
+
+}
+
+.menu ul li a {
+    display: block;
+    font-size: 2.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.floatingImg {
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    border-radius: 30px;
+}

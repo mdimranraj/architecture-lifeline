@@ -3,6 +3,9 @@
 import { useState } from 'react';
 import styles from '../styles/ContactUsBox.module.css'
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const ContactUs = ()=>{
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -18,14 +21,32 @@ const ContactUs = ()=>{
         const TEMPLATE_ID = "template_93zexs8"
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, '#myForm').then(
             (response) => {
-              console.log('SUCCESS!', response.status, response.text);
+                toast.success('Message Sent !', {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: false,
+                    progress: undefined,
+                    theme: "light",
+                    });
               setName("");
               setEmail("");
               setMessage("");
               setPhone("");
             },
             (error) => {
-              console.log('FAILED...', error);
+              toast.error('Message Failed to Send !', {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: false,
+                progress: undefined,
+                theme: "light",
+                });
             },
           );
     }
