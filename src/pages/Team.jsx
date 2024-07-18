@@ -1,5 +1,6 @@
 import styles from '../styles/Team.module.css'
 import TeamCard from '../components/TeamCard';
+import TeamMemberCard from '../components/TeamMemberCard';
 const Team = ()=>{
     return(
         <> 
@@ -8,7 +9,8 @@ const Team = ()=>{
                 Meet the visionary minds behind <b>Architecture Lifeline</b>. Our team of experienced architects, designers, and planners is dedicated to turning your dreams into reality.<br/>
                 </div>    
                <div className={styles.members}>
-                    <TeamCard />
+                    {/* <TeamCard /> */}
+                    <TeamMemberCard/>
                </div>
             </div>
         </>
