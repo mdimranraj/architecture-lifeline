@@ -35,6 +35,31 @@
     font-weight: 100;
     font-style: normal;
     font-family: 'Raleway', sans-serif;
+
+    overflow: hidden;
+    cursor: pointer;
+
+    transition: all 1s linear;
+}
+
+.collapsed {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 1s linear;
+}
+
+.expanded {
+    display: block;
+    -webkit-line-clamp: unset;
+    -webkit-box-orient: unset;
+    overflow: visible;
+    height: auto;
+
+    transition: all 1s linear;
+    
 }
 .author{
     font-size: 1.2rem;

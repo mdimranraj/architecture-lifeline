@@ -1,6 +1,8 @@
 
 .firstSection{
-    background-color: #73888D;
+    /* background-color: #73888D; */
+    background-color: #1D2327;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

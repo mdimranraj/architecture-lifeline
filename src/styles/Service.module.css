@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    background-color: #73888D;
 
     padding: 20px;
     border: 2px solid #D0DCE0;
@@ -52,6 +53,9 @@
 }
 .btn:hover{
     background-color: #354444;
+}
+.btn:active{
+    background-color: #354444 !important;
 }
 
 /* modal  */

@@ -1,7 +1,8 @@
 .mainContainer{
     min-height: 90vh;
     position: static;
-    background-color: #73888D;
+    /* background-color: #73888D; */
+    background-color: #1D2327;
 
     display: flex;
     flex-direction: column;
@@ -13,12 +14,16 @@
 }
 
 .description{
-    width: 60%;
+    width: fit-content;
     text-align: center;
     color: #D0DCE0;
     font-size: 1.2rem;
     font-weight: 600;
     margin: 20px 0 40px;
 
+}
+.description div{
+    margin: 0 0 0 auto;
+    width: max-content;
 }
 

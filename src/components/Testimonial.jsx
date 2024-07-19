@@ -1,17 +1,27 @@
 
 import { RiDoubleQuotesR } from "react-icons/ri";
 import styles from "../styles/Testimonial.module.css"
-const Testimonial = ()=>{
+import { useState } from "react";
+const Testimonial = ({data})=>{
+    const [isExpanded, setIsExpanded] = useState(false);
+
+    function toggleExpand() {
+        setIsExpanded(!isExpanded);
+    }
     return(
-        <div className={styles.mainContainer}>
+        <div className={`${styles.mainContainer}`}>
             <div className={styles.quoteCircle}>
                 <RiDoubleQuotesR className={styles.quoteIcon}/>
             </div>
-            <div className={styles.quoteTextContainer}>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit corporis expedita facere neque labore nihil provident voluptas cum incidunt excepturi dolorem error dignissimos quos ad architecto, asperiores recusandae qui eligendi?
+            <div className={`${styles.quoteTextContainer} ${isExpanded ? styles.expanded : styles.collapsed}`} onClick={toggleExpand}>
+                {
+                    data.description.map(each => {
+                        return <p>{each}</p>
+                    })
+                }
             </div>
             <div className={styles.author}>
-                Imran Raj
+                {data.name}
             </div>
         </div>
     )

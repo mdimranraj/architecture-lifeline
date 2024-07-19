@@ -3,6 +3,7 @@ import LogoCarousel from "../components/LogoCarousel";
 import Testimonial from "../components/Testimonial";
 import styles from "../styles/Homepage.module.css";
 import collabData from "../data/collaborators.json";
+import testimonialData from "../data/testimonial.json";
 const Homepage = ()=>{
     return(
         <>
@@ -55,9 +56,11 @@ const Homepage = ()=>{
                         <h3>What do our Customers say ?</h3>
                         <div className={styles.review}>We value every feedback. Afterall your satisfaction is our priority. </div>
                         <div className={styles.testimonialContainer}>
-                            <Testimonial/>
-                            <Testimonial />
-                            <Testimonial />
+                            {
+                                testimonialData.map(data=>{
+                                    return <Testimonial data={data}/>
+                                })
+                            }
                         </div>         
                 </div>
         </div>

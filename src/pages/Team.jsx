@@ -6,7 +6,8 @@ const Team = ()=>{
         <> 
             <div className={styles.mainContainer}> 
                 <div className={styles.description}>
-                Meet the visionary minds behind <b>Architecture Lifeline</b>. Our team of experienced architects, designers, and planners is dedicated to turning your dreams into reality.<br/>
+                    "A successful team is a group of many hands but of one mind."
+                     <div>– Bill Bethel</div>
                 </div>    
                <div className={styles.members}>
                     {/* <TeamCard /> */}
