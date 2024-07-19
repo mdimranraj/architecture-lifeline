@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    padding: 40px 20px;
     background-color: transparent;
     /* border: 1px solid #eee; */
     border-radius: 8px;
@@ -109,4 +109,46 @@
     gap: 10px;
   }
 
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1000px){
+  .cardContainer{
+    width: 100%;
+  }
+  .description{
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .card{
+    flex-direction: column;
+  }
+  .name{
+    font-size: 1.5rem;
+  }
+  .position{
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 480px) {
+  .cardContainer{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .image{
+    width: 250px;
+    height: 250px;
+  }
+  .name{
+    font-size: 1.2rem;
+  }
+  .position{
+    font-size: 0.7rem;
+  }
+  .description {
+      font-size: 0.8rem;
+  }
+}
   

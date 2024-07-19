@@ -8,7 +8,11 @@ const Homepage = ()=>{
     return(
         <>
             <div className={styles.backgroundSection}>
-                <img src="/images/gray-block-structure.jpg" alt="Background-Image"/>
+                <img src="/images/gray-block-structure.jpg" alt="Background-Image" className={styles.fadeImage}/>
+                <img src="/images/background2.jpg" alt="Background-Image" className={styles.fadeImage}/>
+                <img src="/images/background3.jpg" alt="Background-Image" className={styles.fadeImage}/>
+                <img src="/images/background4.jpg" alt="Background-Image" className={styles.fadeImage}/>
+                <img src="/images/gray-block-structure.jpg" alt="Background-Image" className={styles.fadeImage}/>
             </div>
             <div className={styles.floatingBtn}>
                 <FloatingButtons/>
