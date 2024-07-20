@@ -12,20 +12,26 @@ const Footer = ()=>{
             <div className={styles.rightSide}>
                 <table>
                     <tr>
-                        <td><AiFillInstagram/></td>
-                        <td>Instagram</td>
+                        <a href="https://www.instagram.com/architecture_lifeline"  target="_blank" rel="noopener noreferrer">
+                            <td><AiFillInstagram/></td>
+                            <td>architecture_lifeline</td>
+                        </a>
                     </tr>
                     <tr>
-                        <td><AiFillMail/></td>
-                        <td>E-Mail</td>
+                        <a href="mailto:architecturelifeline@gmail.com">
+                            <td><AiFillMail/></td>
+                            <td>architecturelifeline@gmail.com</td>
+                        </a>
                     </tr>
                     <tr>
-                        <td><AiFillPhone/></td>
-                        <td>+91-9672179298</td>
+                        <a href="https://wa.me/9672179298" target="_blank" rel="noopener noreferrer">
+                            <td><AiFillPhone/></td>
+                            <td>+91-9672179298</td>
+                        </a>
                     </tr>
                 </table>
             </div>
-            <div> &copy; Architecture Lifeline {2000 + Math.round(Date.now()/(1000*60*60*24*365) - 1 - 30)}. All rights reserved.</div> 
+            <div className={styles.copyright}> &copy; Architecture Lifeline {2000 + Math.round(Date.now()/(1000*60*60*24*365) - 1 - 30)}. All rights reserved.</div> 
         </div>
     )
 }
