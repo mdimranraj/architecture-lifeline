@@ -60,7 +60,6 @@
 
 /* modal  */
 .modal{
-    background-color: #D0DCE0;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -85,9 +84,11 @@
 
 }
 .exampleImg{
-    width: 40%;
     height: 250px;
     border-radius: 10px;
+    flex: 1;
+    aspect-ratio: 5/4;
+    object-fit: cover;
 }
 .sorryImg{
     width: 100%;
