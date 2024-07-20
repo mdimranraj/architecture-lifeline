@@ -66,7 +66,7 @@ const ContactUs = ()=>{
                         Write to us. Give suggetions. Our team will contact you.
                     </div> 
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.6199671930235!2d77.59003647484292!3d13.059845087263694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19498f42dbf7%3A0xae3e2917238c6fd1!2sRiseWorx%20Labs%20Pvt%20Ltd%20(CoWork%2C%20SharedOfficeSpace)!5e0!3m2!1sen!2sin!4v1721476975449!5m2!1sen!2sin" title="Location" className={styles.map} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d631.299934831314!2d77.60510298631768!3d13.064677483549877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0x8b482660880cd544!2s3J74%2BQ6%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1721493800050!5m2!1sen!2sin" title="Location" className={styles.map} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className={styles.rightPart}>
                 <div>
