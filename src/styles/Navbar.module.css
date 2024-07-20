@@ -5,9 +5,17 @@
     gap: 20px; 
 }
 .navbar a{
-    color:white !important;
+    color:white ;
     font-size: 1.2rem;
     letter-spacing: 1px;
+}
+.activeLink {
+    color: #D0DCE0 !important;
+}
+.navbarNav a:hover{
+    color: #D0DCE0;
+    transform: scale(1.05);
+    transition: transform .2s ease;
 }
 .hamburger{
     background-color: #D0DCE0;
