@@ -59,8 +59,13 @@
     font-weight: bold;
 }
 .send{
-    background-color: #36C2CE;
+    background-color: #73888d;
+    border: none;
 }
+.send:hover, .send:active{
+    background-color: #354444 !important;
+}
+
 .map{
     width: 100%;
     height: 300px;

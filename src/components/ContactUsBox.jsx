@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import styles from '../styles/ContactUsBox.module.css'
 import emailjs from '@emailjs/browser';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const ContactUs = ()=>{
@@ -12,15 +12,22 @@ const ContactUs = ()=>{
     const [message, setMessage] = useState("");
     const [phone, setPhone] = useState("");
 
-    function sendEmail(e){
+    const [isDisabled, setIsDisable] = useState(false);
+
+    async function sendEmail(e){
         e.preventDefault();
+        setIsDisable(true);
         emailjs.init({
             publicKey: process.env.REACT_APP_Public_Key,
           });
         const SERVICE_ID = process.env.REACT_APP_Service_ID;
         const TEMPLATE_ID = process.env.REACT_APP_Template_ID;
-        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, '#myForm').then(
+        await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, '#myForm').then(
             (response) => {
+                setName("");
+                setEmail("");
+                setMessage("");
+                setPhone("");
                 toast.success('Message Sent !', {
                     position: "top-center",
                     autoClose: 5000,
@@ -31,13 +38,9 @@ const ContactUs = ()=>{
                     progress: undefined,
                     theme: "light",
                     });
-              setName("");
-              setEmail("");
-              setMessage("");
-              setPhone("");
+                setIsDisable(false);
             },
             (error) => {
-                console.log(error)
               toast.error('Message Failed to Send !', {
                 position: "top-center",
                 autoClose: 5000,
@@ -48,6 +51,7 @@ const ContactUs = ()=>{
                 progress: undefined,
                 theme: "light",
                 });
+                setIsDisable(false);
             },
           );
     }
@@ -86,7 +90,7 @@ const ContactUs = ()=>{
                             <label htmlFor="message">Message</label>
                             <textarea name="message" id="" rows="4"  value={message} onChange={event => {setMessage(event.target.value);}}></textarea>
                         </div>
-                       <button type="submit" className={styles.send + " btn btn-success"}>Send Message</button>
+                       <button type="submit" className={styles.send + " btn btn-success"} disabled={isDisabled}>Send Message</button>
                     </form>
                 </div>
             </div>
